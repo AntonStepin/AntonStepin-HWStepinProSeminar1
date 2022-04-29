@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Write first number: ");
 double number1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Write second number:  ");
-double number2 = Convert.ToDouble(Console.ReadLine()); ;
+double number2 = Convert.ToDouble(Console.ReadLine());
 double max = number1;
 if (number2 > number1)
 {
