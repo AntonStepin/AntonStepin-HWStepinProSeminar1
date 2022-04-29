@@ -17,6 +17,5 @@ for (int count = 0; count < n; count++)
         max = temp;
     }
 }
-Console.Write("Max Number is ");
-Console.Write(max);
-Console.Write(" !!!");
+Console.Write("Max Number is "+max+ " !!!");
+
