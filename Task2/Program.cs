@@ -1,9 +1,9 @@
 ﻿Console.WriteLine("How many numbers you have?");
 int n = Convert.ToInt32(Console.ReadLine()) - 1; //n - quantity of numbers for comparison//
-while (n >= 3)
+while (n >= 3 | n <= 0)
 {
-    Console.WriteLine("So many numbers....come on....");
-    Console.WriteLine("Try again (no more than three please) ");
+    Console.WriteLine("So few or many numbers....come on....");
+    Console.WriteLine("Try again (no less than two and no more than three please) ");
     n = Convert.ToInt32(Console.ReadLine()) - 1;
 }
 Console.WriteLine("Print Number ");
@@ -17,5 +17,5 @@ for (int count = 0; count < n; count++)
         max = temp;
     }
 }
-Console.Write("Max Number is "+max+ " !!!");
+Console.Write("Max Number is " + max + " !!!");
 
